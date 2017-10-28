@@ -24,3 +24,37 @@ nav a {
 	padding: 20px;
 	
 }
+
+.content {
+	display: flex;
+	width: 1230px;
+    padding-top: 116px;
+	margin: auto;
+	justify-content: space-around;
+}
+
+.column.large {
+	width: 630px;
+	display: flex;
+	flex-direction: column;
+}
+
+.column.medium {
+	width: 300px;
+	display: flex;
+    flex-direction: column;
+}
+
+.column.small {
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+}
+
+.lead-story.image {
+	border: 1px solid;
+}
+
+div {
+	border: 1px solid;
+}
