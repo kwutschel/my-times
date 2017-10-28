@@ -31,12 +31,37 @@ nav a {
     padding-top: 116px;
 	margin: auto;
 	justify-content: space-around;
+	font-family: Georgia;
+	font-size: 17px;
+	color: black;
+}
+
+.stories {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
 }
 
 .column.large {
 	width: 630px;
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
+}
+
+.story {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	justify-content: space-around;
+}
+
+.story.text {
+	height: 250px;
+}
+
+.story.text {
+	align-items: center;
 }
 
 .column.medium {
@@ -49,9 +74,23 @@ nav a {
 	width: 200px;
 	display: flex;
 	flex-direction: column;
+	justify-content: flex-start;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.column.small p {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	background-color: WhiteSmoke;
+	font-family: Verdana;
+	font-size: 12px;
+	color: DimGray;
 }
 
 .image {
+	height: 300px;
+	margin-top: 15px;
 	font-family: Georgia;
 	font-weight: bold;
 	font-size: 30px;
@@ -82,6 +121,4 @@ nav a {
 	display: flex;
 }
 
-div {
-	border: 1px solid;
-}
+
